@@ -102,3 +102,7 @@ Go to the [contribute page](https://www.bitcraze.io/contribute/) on our website 
 Run the automated build locally to test your code
 
 	./tools/build/build
+
+## hex file
+
+arm-none-eabi-objcopy -O ihex ./bin/lps-node-firmware.elf ./bin/lps-node-firmware.hex
